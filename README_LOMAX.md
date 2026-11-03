@@ -15,6 +15,11 @@ lisensi **GNU LGPL v3**. Source code harus tetap publik.
 | `branding/make_icon.py` | Generator ikon (ubah warna/bentuk lalu jalankan ulang) |
 | `branding/playstore_icon_512.png` | Ikon Play Store 512×512 |
 | `branding/playstore_feature_1024x500.png` | Feature graphic Play Store |
+| `branding/res/drawable*`, `branding/res/font` | Tema gaya game blok: tombol berbevel, tekstur latar, tombol MAIN oranye, font pixel Jersey 10 (OFL) |
+| `branding/layout_overrides/fragment_launcher.xml` | Menu utama baru (grid 2 kolom). Hanya dipasang bila ID upstream masih cocok |
+| `branding/assets/default.json` | Layout kontrol default Lomax: D-pad kiri, klaster aksi kanan, baris tombol atas, laci "⋯" |
+| `branding/make_ui.py`, `make_controls.py`, `make_menu_preview.py` | Generator aset UI, kontrol, dan gambar pratinjau (ubah lalu jalankan ulang) |
+| `branding/licenses/` | Lisensi font (wajib ikut disertakan) |
 | `.github/workflows/lomax.yml` | Build otomatis gratis di GitHub Actions (APK tes + AAB Play Store) |
 | `PRIVACY_POLICY_LOMAX.md` | Kebijakan privasi (wajib untuk Play Store) |
 
